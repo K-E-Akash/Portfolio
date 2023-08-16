@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Libre+Baskerville:ital@1&family=Lobster&family=Montserrat:wght@300;400&family=Nanum+Gothic&family=REM&family=Roboto+Slab&family=Rubik&family=Ubuntu:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Libre+Baskerville:ital@1&family=Lobster&family=Montserrat:wght@300;400&family=Nanum+Gothic&family=Preahvihear&family=REM&family=Roboto+Slab&family=Rubik&family=Ubuntu:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Libre+Baskerville:ital@1&family=Lobster&family=Merriweather:ital,wght@1,300&family=Montserrat:wght@300;400&family=Nanum+Gothic&family=Preahvihear&family=REM&family=Roboto+Slab&family=Rubik&family=Ubuntu:wght@300;400&display=swap');
+
+* {
+    margin: 0px;
+}
+
+.home {
+    /* background-color: rgb(88, 251, 183); */
+    background-image: linear-gradient(rgb(88, 251, 183), rgb(255, 245, 134));
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-left: 1100px;
+    position: fixed;
+}
+
+.nav-items {
+    font-size: 32px;
+    margin: 25px;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: black;
+}
+
+.intro {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Preahvihear', sans-serif;
+}
+
+.name {
+    font-size: 80px;
+    margin: -20px;
+    margin-top: 200px;
+}
+
+.bio {
+    font-size: 35px;
+    color: rgb(0, 138, 81);
+}
+
+@keyframes bounce {
+    from {
+        transform: translate(0);
+    }
+    to {
+        transform: translate(0, 10px);
+    }
+}
+
+.material-symbols-outlined {
+    animation: bounce 1s ease-out infinite alternate;
+}
+
+.icon {
+    transition: all 5s ease;
+}
+
+.about {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(251, 244, 168); */
+    background-image: linear-gradient(rgb(255, 245, 134), pink);
+}
+
+.about h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 30px;
+}
+
+.about img {
+    width: 300px;
+    border-radius: 30px;
+}
+
+.about p {
+    font-family: Ubuntu;
+    font-size: 20px;
+    margin: 30px 320px 10px 320px;
+    font-weight: 500;
+}
+
+.project {
+    width: 100%;
+    background-image: linear-gradient(pink, rgb(130, 170, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.project .p1 {
+    font-size: 35px;
+    font-family: Ubuntu;
+    margin-right: 900px;
+}
+
+.project-content {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.project-content .img img {
+    width: 500px;
+    height: 320px;
+    border: solid;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.title-content {
+    width: 80%;
+    margin-left: 50px;
+}
+
+.title-content h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-content p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Merriweather', serif;
+}
+
+.title-content input {
+    width: 130px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+.project .p2 {
+    font-size: 35px;
+    font-family: Ubuntu;
+    margin-right: 1010px;
+}
+
+.project .p3 {
+    font-size: 35px;
+    font-family: Ubuntu;
+    margin-right: 880px;
+}
+
+#ott-img {
+    height: 280px;
+}
+
+#pizza-img {
+    height: 280px;
+}
+
+.project .p4 {
+    font-size: 35px;
+    font-family: Ubuntu;
+    margin-right: 810px;
+}
+
+.skills {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgb(130, 170, 255), rgb(192, 131, 192));
+    display: flex;
+    flex-direction: column;
+}
+
+.skills h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 55px;
+    margin-left: 715px;
+    margin-bottom: 25px;
+}
+
+.skills h3 {
+    font-size: 30px;
+    font-family: Ubuntu;
+    margin: 10px 0px 10px 80px;
+}
+
+.skill-bar {
+    width: 420px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: black;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill-perc {
+    width: 410px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: rgb(1, 255, 251);
+    margin-left: 5px;
+}
+
+#py {
+    animation: loading-py 2s ease-in ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading-py {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+#sql {
+    animation: loading-sql 2s ease-in ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading-sql {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 85%;
+    }
+}
+
+#html {
+    animation: loading-html 2s ease-in ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading-html {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 85%;
+    }
+}
+
+#css {
+    animation: loading-css 2s ease-in ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading-css {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 60%;
+    }
+}
+
+#js {
+    animation: loading-js 2s ease-in ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loading-js {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( rgb(192, 131, 192), rgb(255, 245, 134));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact h1 {
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 55px;
+    margin-bottom: 25px;
+}
+
+.contacts img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.contact h2 {
+    font-size: 28px;
+    font-family: Ubuntu;
+    margin: 50px;
+}
+
+.contact input {
+    width: 90px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: black;
+    color: aliceblue;
+    margin: 5px;
+    font-size: 15px;
+}
