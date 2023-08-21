@@ -187,11 +187,17 @@ nav {
     margin-right: 835px;
 }
 
-#Zoro-ESports-img {
+#Zoro-ESports-img, #ownit-img {
     height: 270px;
 }
 
 .project .p5 {
+    font-size: 35px;
+    font-family: Ubuntu;
+    margin-right: 845px;
+}
+
+.project .p6 {
     font-size: 35px;
     font-family: Ubuntu;
     margin-right: 810px;
